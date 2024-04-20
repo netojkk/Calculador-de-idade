@@ -9,7 +9,7 @@
     font-weight: 400;
 }
 main {
-    height: 100vh;
+    height: 96vh;
     width: 100vw;
     
 
@@ -22,6 +22,7 @@ main {
 #container {
     height: 25rem;
     width: 29rem;
+    min-width: 200px;
 
     border-radius: 20px 20px 120px 20px;
     background-color: white;
@@ -69,7 +70,6 @@ label {
 #results {
     display: flex;
     align-items: center;
-    justify-content: start;
 
     margin-left: 2rem;
 
@@ -92,9 +92,10 @@ hr {
     background-color:hsl(259, 59%, 32%);
 }
 #data-feedback{
+    
     display: flex;
     flex-direction: column;
-
+    align-content: center;
     padding-left: 2rem;
 }
 #data-feedback p{

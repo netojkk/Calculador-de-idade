@@ -1,0 +1,58 @@
+@media screen and (max-width: 595px){
+    #container {
+        height: 22rem;
+        width: 17rem;
+        
+    }
+    #age-data {
+        height: 10%;
+        
+    
+        padding: 2.6rem  0rem  2rem 1.5rem;
+    }
+    input {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+    
+        height: 2rem;
+        width: 3.7rem;
+        padding: 5px;
+        margin-top: 0.2rem;
+    }
+    #results {
+        /* display: block; */
+        margin-top: 0.4rem;
+        margin-left: 1.5rem;
+    }
+    hr {
+        z-index: 0;
+        position: absolute;
+        width: 14rem;
+        margin-right: 2rem;
+        
+    }
+    #btn-seta{
+        position: relative;
+        z-index: 11;
+        /* margin: auto; */
+        left: 5.5rem;
+
+        height: 55px;
+        width: 55px;
+        
+    }
+    #data-feedback{
+        height: 300px;
+        
+        padding-top: 1.5rem;
+        padding-left: 1.5rem;
+    
+    }
+    #data-feedback p{
+        
+        height: 60px;
+        font-size: 2.7rem;
+        
+    }
+}
