@@ -14,6 +14,21 @@ function calculatorAge(){
     let diaNascimento = parseInt(document.querySelector('#day-text').value)
     let mesNascimento = parseInt(document.querySelector('#month-text').value)
     let anoNascimento = parseInt(document.querySelector('#year-text').value)
+    
+    if ( diaNascimento.toString().length > 2 || mesNascimento.toString().length > 2 || anoNascimento.toString().length > 4) {
+        alert(' Digite apenas 2 números para dia, 2 para mês e 4 para ano. ')
+        throw Error ('  Campo de preenchimento vazio ou o uso de letras inadequadamente. ')
+
+    } else if (mesNascimento > 12 || mesNascimento < 1){
+        alert('Digito de mês invalido')
+        throw Error ('Digito de mês INVALIDO!')
+    }else if (diaNascimento > 31 || diaNascimento < 1){
+        alert('Digito de dia INVALIDO! ')
+        throw Error ('Digito de mês INVALIDO!')
+    }
+    console.log(diaNascimento)
+    console.log(mesNascimento)
+    console.log(anoNascimento)
 
     let dataAtual = new Date()
     let diaAtual = dataAtual.getDate()
@@ -39,10 +54,7 @@ function calculatorAge(){
         }
     let idadeMonths = mesAtual - mesNascimento
 
-    
-
     mostrarIdade(idade, idadeMonths, idadeDays)
     
-    return idade,idadeMonths,idadeDays
-}
 
+}

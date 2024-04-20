@@ -9,10 +9,7 @@
   <title>Age calculator app</title>
   <link rel="stylesheet" href="style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
   <main>
@@ -21,7 +18,7 @@
         <div id="day-container">
 
           <label for="day-text">Day</label><br>
-          <input type="number" id="day-text" min="1" max="2">
+          <input type="number" id="day-text" min="1" max="2" maxlength="2">
 
         </div>
 
@@ -32,7 +29,7 @@
 
         <div id="years-container">
           <label for="year-text">Year</label><br>
-          <input type="number" name="" id="year-text" min="4" max="4">
+          <input type="number" name="" id="year-text" minlength="4" maxlength="4" required>
         </div>
       </div>
       <div id="results">
@@ -51,13 +48,6 @@
     
     
   </main>
-  <footer>
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </div>
-  </footer>
 
   <script src="main.js"></script>
 </body>
