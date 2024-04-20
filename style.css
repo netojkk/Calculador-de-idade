@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Ppppins', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+main {
+    height: 96vh;
+    width: 100vw;
+
+    background-color: hsl(0, 5%, 84%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    height: 25rem;
+    width: 29rem;
+
+    border-radius: 20px 20px 120px 20px;
+    background-color: white;
+
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+#age-data {
+    height: 25%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    padding: 4rem  4rem  2rem 2rem;
+}
+input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+
+    border-radius: 0.2rem;
+    border-color: hsl(0, 0%, 86%);
+    border-style: solid;
+
+    height: 50px;
+    width: 5.7rem;
+    padding: 5px;
+    margin-top: 0.2rem;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:hover {
+    border-color: hsl(259, 100%, 65%);
+}
+
+label {
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px;
+    color:hsl(0, 1%, 44%);
+}
+#month-container{
+    margin: 0px 1.5rem 0px 1.5rem ;
+}
+#results {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    margin-left: 2rem;
+
+}
+hr {
+    width: 21rem;
+}
+#btn-seta{
+    background-image: url(assets/images/icon-arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 3.3rem;
+    width: 3.3rem;
+    
+    background-color: hsl(0, 0%, 8%);
+    border: none;
+}
+#btn-seta:hover {
+    background-color:hsl(259, 59%, 32%);
+}
+#data-feedback{
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 2rem;
+}
+#data-feedback p{
+    font-family: 'Poppins', sans-serif;
+    height: 70px;
+    font-size: 4rem;
+    font-weight: 800;
+}
+span  {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(259, 100%, 65%);
+}
