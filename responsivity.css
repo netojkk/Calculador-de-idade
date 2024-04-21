@@ -1,6 +1,6 @@
-@media screen and (max-width: 595px){
+@media screen and (max-width: 420px){
     #container {
-        height: 22rem;
+        
         width: 17rem;
         
     }
@@ -36,7 +36,7 @@
         position: relative;
         z-index: 11;
         /* margin: auto; */
-        left: 5.5rem;
+        margin: auto;
 
         height: 55px;
         width: 55px;
@@ -53,6 +53,62 @@
         
         height: 60px;
         font-size: 2.7rem;
+        
+    }
+
+}
+@media screen and (min-width: 420px) and (max-width: 600px){
+    #container {
+        
+        width: 80vw;
+        
+    }
+    #age-data{
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+
+    input {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+    
+        height: 2rem;
+        width: 4.5rem;
+        
+    }
+    #results {
+        
+        margin-top: 0.4rem;
+        margin-left: 1.5rem;
+    }
+    hr {
+        z-index: 0;
+        position: absolute;
+        width: 70vw;
+        
+        
+    }
+    #btn-seta{
+        position: relative;
+        z-index: 11;
+        /* margin: auto; */
+        margin: auto;
+
+        
+        
+    }
+    #data-feedback{
+        height: 50vh;
+        
+        align-content: center;
+    
+    }
+    #data-feedback p{
+        
+        height: 60px;
+        font-size: 2.8rem;
         
     }
 }
