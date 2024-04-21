@@ -44,10 +44,9 @@
     }
     #data-feedback{
         height: 300px;
-        
-        padding-top: 1.5rem;
-        padding-left: 1.5rem;
-    
+        padding-left: 0;
+        align-content: center;
+        margin-top: 2rem;
     }
     #data-feedback p{
         
@@ -93,7 +92,6 @@
     #btn-seta{
         position: relative;
         z-index: 11;
-        /* margin: auto; */
         margin: auto;
 
         
@@ -101,8 +99,9 @@
     }
     #data-feedback{
         height: 50vh;
-        
+        padding-left: 0%;
         align-content: center;
+        margin-top: 1.5rem;
     
     }
     #data-feedback p{

@@ -94,9 +94,11 @@ hr {
 #data-feedback{
     
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    align-content: center;
+    align-content: start;
     padding-left: 2rem;
+    
 }
 #data-feedback p{
     font-family: 'Poppins', sans-serif;
