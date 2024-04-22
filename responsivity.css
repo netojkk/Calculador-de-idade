@@ -1,3 +1,55 @@
+@media screen and (min-width: 420px) and (max-width: 600px){
+    #container {
+        height: 70%;
+        width: 80vw;
+        
+    }
+    #age-data{
+        margin: 0%;
+        justify-content: space-evenly;
+        
+    }
+    
+    input {
+        font-size: 18px;
+        height: 2.5rem;
+        width: 4.6rem;
+        
+    }
+    #results {
+        
+        margin-top: 0.4rem;
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+    }
+    hr {
+        z-index: 0;
+        position: absolute;
+        width: 68%;
+        
+        
+    }
+    #btn-seta{
+        position: relative;
+        z-index: 1;
+        left: 36.5%;
+        height: 4rem;
+        width: 4rem;
+        
+        
+    }
+    #data-feedback{
+        height: 50vh;
+        padding-left: 0%;
+        align-content: space-around;
+    }
+    #data-feedback p{
+        
+        height: 60px;
+        font-size: 3rem;
+        
+    }
+}
 @media screen and (max-width: 420px){
     #container {
         height: 70%;
@@ -5,18 +57,16 @@
         
     }
     #age-data {
-        height: 10%;
-        
+        justify-content: space-evenly;
+        margin: 0%;
     
-        padding: 2.6rem  0rem  2rem 0.5rem;
+        
     }
     input {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 800;
         font-size: 18px;
     
         height: 2rem;
-        width: 3rem;
+        width: 3.7rem;
         padding: 5px;
         margin-top: 0.2rem;
     }
@@ -24,10 +74,10 @@
     #results {
        display: block;
        margin: 0%;
-       margin-top: 1rem;
+      
     }
     hr {
-        margin-top: 1rem;
+        margin-top: 2rem;
         z-index: 0;
         position: absolute;
         width: 75%;
@@ -38,84 +88,24 @@
     #btn-seta{
         position: relative;
         z-index: 11;
-        /* margin: auto; */
-        /* margin: auto; */
         top: 40%;
-        left: 42%;
-        height: 55px;
-        width: 55px;
+        left: 36.5%;
+        height: 4rem;
+        width: 4rem;
         
     }
     #data-feedback{
         height: 300px;
         padding-left: 0;
         align-content: center;
-        margin-top: 1rem;
+        
     }
     #data-feedback p{
         
         height: 60px;
-        font-size: 2.3rem;
+        font-size: 2.5rem;
         
-    }
-    #p-month{
-        margin-top: 0.6rem;
-        margin-bottom: 0.6rem;
     }
 
 }
-@media screen and (min-width: 420px) and (max-width: 600px){
-    #container {
-        height: 70%;
-        width: 80vw;
-        
-    }
-    #age-data{
-        justify-content: center;
-        padding: 2rem;
-    }
-    
 
-    input {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-    
-        height: 2.5rem;
-        width: 4.6rem;
-        
-    }
-    #results {
-        
-        margin-top: 0.4rem;
-        margin-left: 1.5rem;
-    }
-    hr {
-        z-index: 0;
-        position: absolute;
-        width: 70vw;
-        
-        
-    }
-    #btn-seta{
-        position: relative;
-        z-index: 11;
-        margin: auto;
-
-        
-        
-    }
-    #data-feedback{
-        height: 50vh;
-        padding-left: 0%;
-        align-content: space-around;
-        margin-top: 1rem;
-    
-    }
-    #data-feedback p{
-        
-        height: 60px;
-        font-size: 3rem;
-        
-    }
-}

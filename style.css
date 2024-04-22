@@ -25,7 +25,7 @@ main {
 
 #container {
     height: 75vh;
-    width: 29rem;
+    width: 28rem;
     min-width: 200px;
 
     border-radius: 20px 20px 120px 20px;
@@ -36,11 +36,14 @@ main {
 #age-data {
     height: 25%;
     display: flex;
-    justify-content: start;
-    
     align-items: center;
-
-    padding: 4rem  4rem  2rem 2rem;
+    gap: 1rem;
+    margin-left: 2.5rem;
+}
+label {
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px;
+    color:hsl(0, 1%, 44%);
 }
 input {
     font-family: 'Poppins', sans-serif;
@@ -53,8 +56,7 @@ input {
 
     height: 50px;
     width: 5.7rem;
-    /* padding: 5px; */
-    margin-top: 0.2rem;
+    padding: 5px;
 }
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -64,19 +66,16 @@ input:hover {
     border-color: hsl(259, 100%, 65%);
 }
 
-label {
-    font-family: 'Poppins',sans-serif;
-    font-size: 12px;
-    color:hsl(0, 1%, 44%);
+#day-container,#month-container, #years-container{
+    display: flex;
+    flex-direction: column;
+    
 }
-#month-container{
-    margin: 0px 1rem 0px 1.5rem ;
-}
+
 #results {
     display: flex;
     align-items: center;
-
-    margin-left: 2rem;
+    margin-left: 2.5rem;
 
 }
 hr {
@@ -87,8 +86,8 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 3.3rem;
-    width: 3.3rem;
+    height: 3.5rem;
+    width: 3.5rem;
     
     background-color: hsl(0, 0%, 8%);
     border: none;
@@ -97,18 +96,20 @@ hr {
     background-color:hsl(259, 59%, 32%);
 }
 #data-feedback{
-    
+    height: 60%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: start;
-    padding-left: 2rem;
+    /* justify-content: center; */
+    /* align-content: center; */
+    padding-left: 2.5rem;
+    gap: 10px;
     
 }
 #data-feedback p{
     font-family: 'Poppins', sans-serif;
     height: 70px;
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 800;
 }
 span  {
