@@ -15,7 +15,7 @@ function calculatorAge(){
     let mesNascimento = parseInt(document.querySelector('#month-text').value)
     let anoNascimento = parseInt(document.querySelector('#year-text').value)
     
-    if ( diaNascimento.toString().length > 2 || mesNascimento.toString().length > 2 || anoNascimento.toString().length > 4) {
+    if ( diaNascimento.toString().length > 2 || diaNascimento.toString().length < 1 || mesNascimento.toString().length > 2 || mesNascimento.toString().length < 1 || anoNascimento.toString().length > 4 || anoNascimento.toString().length < 4) {
         alert(' Digite apenas 2 números para dia, 2 para mês e 4 para ano. ')
         throw Error ('  Campo de preenchimento vazio ou o uso de letras inadequadamente. ')
 
