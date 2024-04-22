@@ -1,14 +1,14 @@
 @media screen and (max-width: 420px){
     #container {
-        
-        width: 17rem;
+        height: 70%;
+        width: 80vw;
         
     }
     #age-data {
         height: 10%;
         
     
-        padding: 2.6rem  0rem  2rem 1.5rem;
+        padding: 2.6rem  0rem  2rem 0.5rem;
     }
     input {
         font-family: 'Poppins', sans-serif;
@@ -16,28 +16,32 @@
         font-size: 18px;
     
         height: 2rem;
-        width: 3.7rem;
+        width: 3rem;
         padding: 5px;
         margin-top: 0.2rem;
     }
+
     #results {
-        /* display: block; */
-        margin-top: 0.4rem;
-        margin-left: 1.5rem;
+       display: block;
+       margin: 0%;
+       margin-top: 1rem;
     }
     hr {
+        margin-top: 1rem;
         z-index: 0;
         position: absolute;
-        width: 14rem;
-        margin-right: 2rem;
+        width: 75%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
         
     }
     #btn-seta{
         position: relative;
         z-index: 11;
         /* margin: auto; */
-        margin: auto;
-
+        /* margin: auto; */
+        top: 40%;
+        left: 42%;
         height: 55px;
         width: 55px;
         
@@ -46,13 +50,17 @@
         height: 300px;
         padding-left: 0;
         align-content: center;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
     #data-feedback p{
         
         height: 60px;
-        font-size: 2.7rem;
+        font-size: 2.3rem;
         
+    }
+    #p-month{
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
     }
 
 }
@@ -101,7 +109,7 @@
         height: 50vh;
         padding-left: 0%;
         align-content: space-around;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     
     }
     #data-feedback p{
